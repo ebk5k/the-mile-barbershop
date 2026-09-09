@@ -2,6 +2,7 @@
    Sources: Google Business Profile (scraped 2026-09-08), the shop's printed business card (photo on the GBP),
    and the 19 Google reviews (5.0 average). Edit here, never in the HTML. */
 window.MILE = {
+  assetVersion: '6f8f965c', // bump (or rerun tools/bump-assets.sh) whenever files in assets/img change — they are served with an immutable 1-year cache
   name: 'The Mile barbershop',
   short: 'The Mile',
   city: 'Huntington Park',

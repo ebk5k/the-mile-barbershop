@@ -32,7 +32,9 @@ for pid in ids:
     im.save(f'{P}/feed/{pid}.webp', quality=86, method=6)
     # square: anchor on the head using the geometry measured on the original (same 3:4 framing → scale by W/1800)
     g = (log.get(pid) or {}).get('geom'); side = W
-    if g and g.get('top') is not None:
+    if pid in ('p002', 'p003', 'p005', 'p006', 'p024'):  # nails: Grok re-framed these, centre crop
+        top = (H - side) // 2
+    elif g and g.get('top') is not None:
         sc = W / 1800.0; head_top = g['top'] * sc; head_w = g['w'] * sc
         top = int(max(0, min(H - side, head_top - 0.12 * side)))
     else:
