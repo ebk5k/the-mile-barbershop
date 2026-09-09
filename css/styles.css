@@ -108,7 +108,7 @@ h1 .accent{color:var(--gold);text-shadow:0 0 28px rgba(212,180,106,.25)}
 .rail-foot{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
 
 /* feed cards */
-.card-photo{position:relative;width:min(78vw,340px);aspect-ratio:4/5;border-radius:var(--r);overflow:hidden;background:var(--ink-3);box-shadow:0 18px 50px rgba(0,0,0,.45),0 0 0 1px var(--line);text-align:left}
+.card-photo{position:relative;width:min(78vw,340px);aspect-ratio:3/4;border-radius:var(--r);overflow:hidden;background:var(--ink-3);box-shadow:0 18px 50px rgba(0,0,0,.45),0 0 0 1px var(--line);text-align:left}
 .card-photo img{width:100%;height:100%;object-fit:cover;transition:transform .6s var(--ease)}
 .card-photo:active img{transform:scale(1.03)}
 .card-photo .cap{position:absolute;left:0;right:0;bottom:0;padding:44px 14px 14px;background:linear-gradient(to top,rgba(10,10,11,.85),rgba(10,10,11,0));display:flex;align-items:flex-end;justify-content:space-between;gap:10px}
@@ -150,7 +150,7 @@ h1 .accent{color:var(--gold);text-shadow:0 0 28px rgba(212,180,106,.25)}
 
 /* nails */
 .nail-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.nail-grid .tile{aspect-ratio:4/5;border-radius:var(--r-s);overflow:hidden;background:var(--ink-3);box-shadow:0 0 0 1px var(--line)}
+.nail-grid .tile{aspect-ratio:3/4;border-radius:var(--r-s);overflow:hidden;background:var(--ink-3);box-shadow:0 0 0 1px var(--line)}
 .nail-grid .tile:nth-child(5):last-child{grid-column:1/-1;aspect-ratio:2.05}
 .tile img{width:100%;height:100%;object-fit:cover}
 
@@ -242,7 +242,7 @@ h1 .accent{color:var(--gold);text-shadow:0 0 28px rgba(212,180,106,.25)}
   .shop-rail{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;overflow:visible}
   .shot{width:auto}
   .nail-grid{grid-template-columns:repeat(5,1fr)}
-  .nail-grid .tile:nth-child(5):last-child{grid-column:auto;aspect-ratio:4/5}
+  .nail-grid .tile:nth-child(5):last-child{grid-column:auto;aspect-ratio:3/4}
   .grid{grid-template-columns:repeat(6,1fr);gap:4px}
   .visit{grid-template-columns:1fr 1fr;gap:18px}
   .dock{display:none}

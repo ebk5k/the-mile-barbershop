@@ -66,7 +66,6 @@ window.MILE.photos = [
   { id: 'p044', kind: 'kid', en: 'Kids’ buzz · line-up', es: 'Rapado con línea · niño' },
   { id: 'p046', kind: 'cut', en: 'Mid fade', es: 'Mid fade' },
   { id: 'p047', kind: 'cut', en: 'Curly fringe · taper', es: 'Fleco rizado · taper' },
-  { id: 'p048', kind: 'cut', en: 'Curly top · taper', es: 'Rizos arriba · taper' },
   { id: 'p052', kind: 'cut', en: 'Curls · line-up', es: 'Rizos · línea' },
   { id: 'p036', kind: 'cut', en: 'Textured crop · back', es: 'Corte texturizado · atrás' },
   { id: 'p037', kind: 'cut', en: 'Fringe · mid fade', es: 'Fleco · mid fade' },
